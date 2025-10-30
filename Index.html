@@ -1,37 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Onboarding Screen</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Пробна сторінка Жижка Олексія</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a8c;
+            border-bottom: 2px solid #4a4a8c;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        h2 {
+            color: #3b5998;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #6a0dad;
+        }
+
+        a:hover {
+            color: #d9534f;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            margin: 25px auto;
+        }
+
+        .hr-1 { height: 1px; width: 100%; background-color: #ccc; }
+        .hr-2 { height: 2px; width: 80%; background-color: #aaa; }
+        .hr-3 { height: 4px; width: 60%; background-color: #888; }
+        .hr-4 { height: 6px; width: 40%; background-color: #666; }
+        .hr-5 { height: 8px; width: 20%; background-color: #444; }
+        .hr-6 { height: 10px; width: 10%; background-color: #222; }
+
+        .entity-list p {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #eee;
+            padding: 5px;
+            border-radius: 4px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            padding: 5px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 500px;
+            aspect-ratio: 1.43;
+        }
+
+        table {
+            width: 50%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .cell-1 {
+            background-color: #fffacd;
+            color: #8b4513;
+        }
+        .cell-2 {
+            background-color: #add8e6;
+            color: #00008b;
+        }
+        .cell-3 {
+            background-color: #f0e68c;
+            color: #2f4f4f;
+        }
+        .cell-4 {
+            background-color: #ffb6c1;
+            color: #a52a2a;
+        }
+
+        td ul {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 20px;
+        }
+
+        .footer-link {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+        .teachers-list li {
+            margin-bottom: 10px;
+        }
+        .students-list li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-<body>
-  <div class="container">
-    <div class="image-section">
-      <img src="https://elements-resized.envatousercontent.com/elements-cover-images/17170584-6276-4884-a568-c81f88a63ed1?w=2038&cf_fit=scale-down&q=85&format=auto&s=e203ea40c647f93037f7731ccd4c70987a317c0ff6e612eb9f8dc23baf9ee64c" 
-           alt="Meet New People Illustration">
+<body id="top"> 
+    
+    <h1>Ви завітали на пробну сторінку Жижка Олексія</h1>
+
+    <h1>Приклади використання заголовків</h1>
+    <h2>Приклад заголовку 2-го порядку</h2>
+    <h3>Приклад заголовку 3-го порядку</h3>
+    <h4>Приклад заголовку 4-го порядку</h4>
+    <h5>Приклад заголовку 5-го порядку</h5>
+    <h6>Приклад заголовку 6-го порядку</h6>
+
+    <h1>Приклади використання горизонтальних лінійок</h1>
+    <hr class="hr-1">
+    <hr class="hr-2">
+    <hr class="hr-3">
+    <hr class="hr-4">
+    <hr class="hr-5">
+    <hr class="hr-6">
+
+    <h1>Приклади використання розривів стрічок</h1>
+    <p>
+        Любіть Україну, як сонце любіть,<br>
+        як вітер, і трави, і води...<br>
+       В годину щасливу і в радості мить,<br>
+        любіть у годину негоди.
+    </p>
+
+    <h1>Приклади амперсант-послідовностей</h1>
+    <div class="entity-list">
+        <p><b>&amp;</b> &mdash; для відображення використовується &amp;amp;</p>
+        <p><b>&lt;</b> &mdash; для відображення використовується &amp;lt;</p>
+        <p><b>&gt;</b> &mdash; для відображення використовується &amp;gt;</p>
+        <p><b>&copy;</b> &mdash; для відображення використовується &amp;copy;</p>
+        <p><b>&euro;</b> &mdash; для відображення використовується &amp;euro;</p>
     </div>
 
-    <div class="content">
-      <h2 class="title">MEET NEW PEOPLE</h2>
-      <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada libero ex, at vestibulum mauris consequat ut. 
-        Proin sodales massa a purus scelerisque, vel ultricies leo blandit. Sed urna libero, lacinia sit amet dictum eu, elementum et metus.
-      </p>
+    <h1>Приклади використання форматувань</h1>
+    <p><strong>Напівжирний</strong></p>
+    <p><em>Курсив</em></p>
+    <p><strong><em>Напівжирний курсив</em></strong></p>
+
+    <h1>Приклади використання списків</h1>
+
+    <h2>Приклад використання ненумерованих списків</h2>
+    <ul>
+        <li>Перший елемент ненумерованого списку</li>
+        <li>Другий елемент ненумерованого списку</li>
+        <li>Третій елемент ненумерованого списку</li>
+        <li>Четвертий елемент ненумерованого списку</li>
+    </ul>
+
+    <h2>Приклад використання нумерованого списку</h2>
+    <ol>
+        <li>Перший елемент нумерованого списку</li>
+        <li>Другий елемент нумерованого списку</li>
+        <li>Третій елемент нумерованого списку</li>
+        <li>Четвертий елемент нумерованого списку</li>
+    </ol>
+
+    <h2>Приклад використання списків визначень</h2>
+    <dl>
+        <dt>Означення №1</dt>
+        <dd>тут буде текст означення 1</dd>
+        <dt>Означення №2</dt>
+        <dd>тут буде текст означення 2</dd>
+        <dt>Означення №3</dt>
+        <dd>тут буде текст означення 3</dd>
+    </dl>
+
+    <h2>Приклад вкладених списків</h2>
+    <ol>
+        <li>Овочі:
+            <ol type="a">
+                <li>Огірок</li>
+                <li>Баклажан</li>
+                <li>Кабачок</li>
+            </ol>
+        </li>
+        <li>Фрукти:
+            <ol type="a">
+                <li>Яблуко</li>
+                <li>Груша</li>
+                <li>Авокадо</li>
+            </ol>
+        </li>
+        <li>Ягоди:
+            <ol type="a">
+                <li>Аґрус</li>
+                <li>Малина</li>
+                <li>Кавун</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h1>Приклади використання гіперпосилань</h1>
+    <ul>
+        <li><a href="https://www.oa.edu.ua/" target="_blank">Гіперпосилання на сторінку Острозької академії</a></li>
+        <li><a href="text.txt">Гіперпосилання на текстовий файл</a></li>
+        <li><a href="#top">Гіперпосилання на початок документу</a></li>
+        <li><a href="#bottom">Гіперпосилання на кінець документу</a></li>
+    </ul>
+
+    <h1>Приклад використання вставки малюнків</h1>
+    <a href="https://www.oa.edu.ua/" target="_blank" title="Перейти на сайт НаУОА">
+        <img src="https://wuuuc.sumdu.edu.ua/images/New/Universities/NUOA_Logo.jpg" alt="Герб Острозької академії">
+    </a>
+
+    <h1>Приклад використання таблиць</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="cell-1">Список викладачів</th>
+                <th class="cell-2">Список студентів</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="cell-3">
+                    <ul class="teachers-list">
+                        <li>Зубенко Ігор Ростиславович</li>
+                        <li>Мельничук Олександр Павлович</li>
+                        <li>Прус Андрій Анатолійович</li>
+                    </ul>
+                </td>
+                <td class="cell-4">
+                    <ul class="students-list">
+                        <li>Жижко Олексій Сергійович</li>
+                        <li>Дорощук Павло Павлович</li>
+                        <li>Радченко Микола Сергійович</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer-link">
+        <a id="bottom" href="mailto:oleksii.zhyzhko@oa.edu.ua" title="клацніть тут, щоб написати мені листа">
+            Написати мені листа
+        </a>
     </div>
 
-    <div class="footer">
-      <button class="btn skip">SKIP</button>
-
-      <div class="dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-
-      <button class="btn next">NEXT</button>
-    </div>
-  </div>
 </body>
 </html>
