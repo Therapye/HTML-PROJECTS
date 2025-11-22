@@ -1,0 +1,288 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 30px 0;
+    display: block;
+    overflow-y: scroll;  
+}
+
+.screen {
+    width: 375px;
+    height: 812px;         
+    background: #fff;
+    border-radius: 30px;
+    border: 2px solid #222;
+
+    margin: 0 auto 40px auto; 
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow: hidden;      
+}
+
+.main-img {
+    width: 100%;
+    margin-top: 100px;
+    transform: scale(1.1);
+}
+
+.text-box {
+    text-align: center;
+}
+
+.title {
+    background: #ff6f6f;
+    padding: 16px 35px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 12px;
+    color: #444;
+    line-height: 1.4;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    background: #eaeaea;
+    border: none;
+}
+
+.next {
+    background: #ff6f6f;
+    color: #fff;
+}
+
+.dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.dot.active {
+    background: #ff6f6f;
+}
+
+.register-screen {
+    background: #FF5F5F;
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+.register-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.reg-title {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.reg-tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.reg-tab {
+    width: 130px;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.reg-tab.active {
+    background: white;
+    color: #ff5c5c;
+}
+
+.reg-tab.inactive {
+    background: #ff7f7f;
+    color: white;
+}
+
+.reg-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.reg-input {
+    width: 82%;
+    background: white;
+    padding: 15px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.reg-forgot {
+    width: 82%;
+    text-align: right;
+    font-size: 12px;
+    color: white;
+}
+
+.reg-big-btn {
+    width: 82%;
+    background: white;
+    color: #ff5c5c;
+    padding: 16px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.reg-bottom-text {
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+}
+
+.reg-bottom-text span {
+    font-weight: 700;
+}
+
+.login-screen {
+    background: #FF5F5F;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.login-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.login-title {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.login-tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.login-tab {
+    width: 130px;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.login-tab.active {
+    background: white;
+    color: #ff5c5c;
+}
+
+.login-tab.inactive {
+    background: #ff7f7f;
+    color: white;
+}
+
+.login-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.login-input {
+    width: 82%;
+    background: white;
+    padding: 15px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.login-forgot {
+    width: 82%;
+    text-align: right;
+    font-size: 12px;
+    color: white;
+}
+
+.login-big-btn {
+    width: 82%;
+    background: white;
+    color: #ff5c5c;
+    padding: 16px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.login-bottom-text {
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+}
+
+.login-bottom-text span {
+    font-weight: 700;
+}
